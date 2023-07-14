@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pod1.SumValidation">
+      <class name="pod1.DynamicJson">
         <methods>
-          <include name="sumOfCourses"/>
+          <include name="addBookDynamic" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- pod1.SumValidation -->
+      </class> <!-- pod1.DynamicJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
